@@ -1,0 +1,6 @@
+venv/
+*.log
+__pycahce>>/
+*.py[cod]
+.env
+*.sqlite
