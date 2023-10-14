@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def index():S
     # Connect to SQLite database
     conn = sqlite3.connect('db.sqlite')
     cursor = conn.cursor()
